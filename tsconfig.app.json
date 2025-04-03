@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": false,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "assumeChangesOnlyAffectDirectDependencies": true,
+
+    "paths": {
+      "common-ui": ["node_modules/common-ui"],
+      "assets/*": ["assets/*"],
+      "components/*": ["components/*"],
+      "config/*": ["config/*"],
+      "layouts/*": ["layouts/*"],
+      "pages/*": ["pages/*"],
+      "utils/*": ["utils/*"],
+      "hooks/*": ["hooks/*"],
+      "api/*": ["api/*"],
+      "contexts/*": ["contexts/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["*/dist/*"],
+}
