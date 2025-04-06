@@ -24,7 +24,7 @@ const Registration = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center max-w-[456px] mx-auto pt-14">
+    <div className="flex flex-col justify-center max-w-[456px] mx-auto mb-24 pt-14">
       <Stepper steps={registrationSteps} activeStep={step} />
       <div className="mt-20 flex flex-col gap-8">
         <Description
